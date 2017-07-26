@@ -1,6 +1,6 @@
 # Error classes for Arduino
 
-[![Build Status](https://travis-ci.com/mum4k/arduino_error.svg?token=jcEUXwLaBaCvEegQbsHv&branch=master)](https://travis-ci.com/mum4k/arduino_error)
+[![Build Status](https://travis-ci.org/mum4k/arduino_error.svg?branch=master)](https://travis-ci.org/mum4k/arduino_error)
 
 A collection of classes useful for error reporting from C++ functions written for Arduino.
 
