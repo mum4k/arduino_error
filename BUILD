@@ -30,7 +30,7 @@ cc_test(
     srcs = ["error_test.cc"],
     deps = [
         ":error",
-        "//external:gtest_main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
 
@@ -40,7 +40,7 @@ cc_library(
     defines = ["NATIVE_BUILD"],
     deps = [
         ":error",
-        "//external:gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -49,7 +49,7 @@ cc_test(
     srcs = ["error_or_test.cc"],
     deps = [
         ":error_or",
-        "//external:gtest_main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
 
@@ -67,7 +67,7 @@ cc_test(
         ":error_macros",
         ":error_or",
         "//testing:error_matchers",
-        "//external:gtest_main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
 

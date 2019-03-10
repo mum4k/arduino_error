@@ -23,7 +23,7 @@ cc_library(
     hdrs = ["error_matchers.h"],
     defines = ["NATIVE_BUILD"],
     deps = [
-        "//external:gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -34,6 +34,6 @@ cc_test(
         ":error_matchers",
         "//:error",
         "//:error_or",
-        "//external:gtest_main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
